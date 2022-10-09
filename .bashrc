@@ -3,7 +3,7 @@ stty -ixon
 export HISTSIZE=-1
 export HISTFILESIZE=30000
 export EDITOR=vim
-dupa
+
 # Prompt
 parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
