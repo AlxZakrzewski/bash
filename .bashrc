@@ -1,8 +1,10 @@
 # Terminal setup
-stty -ixon
 export HISTSIZE=-1
 export HISTFILESIZE=30000
 export EDITOR=vim
+
+# FZF
+export FZF_DEFAULT_COMMAND='find .'
 
 # Prompt
 parse_git_branch() {
