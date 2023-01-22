@@ -4,7 +4,7 @@ export HISTFILESIZE=30000
 export EDITOR=vim
 
 # FZF
-export FZF_DEFAULT_COMMAND='find .'
+export FZF_DEFAULT_COMMAND="find . -not -path '*/\.git/*'"
 
 # Prompt
 parse_git_branch() {
@@ -13,4 +13,5 @@ parse_git_branch() {
 export PS1="\[$(tput setaf 153)\]\W\[$(tput setaf 215)\]\$(parse_git_branch)\[$(tput sgr0)\] $ "
 
 # Aliases
+alias l='ls -lah'
 alias ll='ls -l'
