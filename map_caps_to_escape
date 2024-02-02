@@ -1,0 +1,5 @@
+install setxkbmap
+add to ~/.profile
+setxkbmap -option caps:swapescape
+
+https://askubuntu.com/a/830343
