@@ -15,4 +15,4 @@ export PS1="\[$(tput setaf 153)\]\W\[$(tput setaf 215)\]\$(parse_git_branch)\[$(
 # Aliases
 alias l='ls -lah'
 alias ll='ls -l'
-alias nvim='vim'
+alias vim='nvim'
