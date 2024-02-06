@@ -16,3 +16,5 @@ export PS1="\[$(tput setaf 153)\]\W\[$(tput setaf 215)\]\$(parse_git_branch)\[$(
 alias l='ls -lah'
 alias ll='ls -l'
 alias vim='nvim'
+alias svim='sudo nvim'
+alias g='cd ~/git'
